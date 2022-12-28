@@ -1,3 +1,13 @@
+/*
+ * File: app.component.ts
+ * Author: Gubis Zsombor Dániel
+ * Copyright: 2022, Gubis Zsombor Dániel
+ * Group: Szoft_II_N
+ * Date: 2022-12-28
+ * Github: https://github.com/Zsomi4/
+ * Licenc: GNU GPL
+*/
+
 import { Component } from '@angular/core';
 
 interface settlement {
@@ -60,5 +70,5 @@ export class AppComponent {
   title = 'latogatni';
 
   containtSettlementArray=settlementArray;
-  
+
 }
