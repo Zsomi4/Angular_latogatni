@@ -58,4 +58,7 @@ const settlementArray:settlement[] = [
 })
 export class AppComponent {
   title = 'latogatni';
+
+  containtSettlementArray=settlementArray;
+  
 }
